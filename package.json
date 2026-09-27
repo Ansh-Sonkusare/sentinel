@@ -1,9 +1,9 @@
 {
-  "name": "x402-sentinel",
+  "name": "sentinel",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "x402 Sentinel — Algorand agent payment router with policy guard",
+  "description": "Sentinel — Algorand agent payment router with policy guard",
   "scripts": {
     "dev": "concurrently -n providers,planner,orchestrator,gateway,web -c cyan,magenta,yellow,green,white \"pnpm --filter service-providers dev\" \"pnpm --filter service-planner dev\" \"pnpm --filter service-orchestrator dev\" \"pnpm --filter gateway dev\" \"pnpm --filter web dev\"",
     "build": "pnpm -r --filter=./packages/* build && pnpm -r --filter=./apps/* build",

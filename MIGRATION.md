@@ -1,4 +1,4 @@
-# MIGRATION.md — x402 Sentinel
+# MIGRATION.md — Sentinel
 
 Migrating from flat `src/` monolith to pnpm monorepo with a unified Hono gateway
 and independent microservices. Each phase leaves `pnpm -r typecheck` clean.

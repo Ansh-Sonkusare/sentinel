@@ -1,4 +1,4 @@
-# PRD: x402 Sentinel — Policy-Guarded Agent Payment Router for Algorand (INF-01)
+# PRD: Sentinel — Policy-Guarded Agent Payment Router for Algorand (INF-01)
 
 **Status:** Active build — consolidated from the earlier `PRD.md` ("Sentinel"
 framing) and `PRD-ORCH.md` ("policy-driven router / orchestrator" framing).

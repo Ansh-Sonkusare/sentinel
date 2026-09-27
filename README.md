@@ -1,4 +1,4 @@
-# x402 Sentinel
+# Sentinel
 
 **A policy-guarded agent payment router.** An agent receives a goal ("assess this
 Algorand wallet"), an LLM planner decomposes it into a small dependency graph,
@@ -6,7 +6,7 @@ a router picks which x402-payable provider serves each step, and every step is
 **paid for before its response is trusted** — and no provider response can ever
 touch the budget, the scope, or the prompt state.
 
-Built for **CodeRush 2.0** by **CyberKnights**. TypeScript everywhere, Algorand
+Originally built at the **CodeRush 2.0** hackathon by team **CyberKnights**. TypeScript everywhere, Algorand
 (AVM) settlement model, LLM + real-world API providers, and a policy guard that
 is the actual differentiator.
 

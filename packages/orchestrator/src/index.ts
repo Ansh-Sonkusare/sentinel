@@ -1,7 +1,7 @@
 /**
  * @sentinel/orchestrator
  *
- * XState v5 task + node machines for the x402 Sentinel orchestrator (Phase 9).
+ * XState v5 task + node machines for the Sentinel orchestrator (Phase 9).
  *
  * - NodeMachine (src/nodeMachine.ts): one actor per paid node —
  *   pending → routing → quoted → paying → paid → validating →

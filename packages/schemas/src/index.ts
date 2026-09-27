@@ -2,7 +2,7 @@
  * @sentinel/schemas
  *
  * Single source of truth for every shared type, zod schema, and branded
- * primitive in the x402 Sentinel system.
+ * primitive in the Sentinel system.
  *
  * Rules:
  *  - No zod schema is defined outside this package.

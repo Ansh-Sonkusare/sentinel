@@ -1,4 +1,4 @@
-# AGENTS.md — x402 Sentinel
+# AGENTS.md — Sentinel
 
 This file is the contract for any AI coding agent (Claude Code, Cursor, Copilot, etc.)
 working in this repo. It exists so that four people plus several LLM sessions don't

@@ -228,7 +228,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <div className="brand">x402 Sentinel</div>
+        <div className="brand">Sentinel</div>
         <div className="topbar-spacer" />
         <span className={`dot ${state.connected ? "dot-ok" : "dot-bad"}`} />
         <span className="muted">{state.connected ? "ws connected" : "ws reconnecting…"}</span>
